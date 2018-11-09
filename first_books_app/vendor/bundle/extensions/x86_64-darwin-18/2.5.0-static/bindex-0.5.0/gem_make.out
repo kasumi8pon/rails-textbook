@@ -1,0 +1,15 @@
+current directory: /Users/kasumi/projects/fjordbootcamp/my_web_app/first_books_app/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/Users/kasumi/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20181105-8928-1lbbx20.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kasumi/projects/fjordbootcamp/my_web_app/first_books_app/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/kasumi/projects/fjordbootcamp/my_web_app/first_books_app/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/kasumi/projects/fjordbootcamp/my_web_app/first_books_app/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20181105-8928-m1astf/bindex
