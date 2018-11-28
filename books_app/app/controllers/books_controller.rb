@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class BooksController < ApplicationController
   before_action :set_book, only: [:show, :edit, :update, :destroy]
 
@@ -28,7 +30,7 @@ class BooksController < ApplicationController
 
     respond_to do |format|
       if @book.save
-        format.html { redirect_to @book, notice: t('.success') }
+        format.html { redirect_to @book, notice: t(".success") }
         format.json { render :show, status: :created, location: @book }
       else
         format.html { render :new }
@@ -42,7 +44,7 @@ class BooksController < ApplicationController
   def update
     respond_to do |format|
       if @book.update(book_params)
-        format.html { redirect_to @book, notice: t('.success') }
+        format.html { redirect_to @book, notice: t(".success") }
         format.json { render :show, status: :ok, location: @book }
       else
         format.html { render :edit }
@@ -56,7 +58,7 @@ class BooksController < ApplicationController
   def destroy
     @book.destroy
     respond_to do |format|
-      format.html { redirect_to books_url, notice: t('.success') }
+      format.html { redirect_to books_url, notice: t(".success") }
       format.json { head :no_content }
     end
   end
