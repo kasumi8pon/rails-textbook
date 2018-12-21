@@ -221,6 +221,11 @@ ja:
   Editing Book: 編集
   new: 登録
   back: 戻る
+  Logged in as: ログイン中のユーザー
+  Edit profile: ユーザー情報編集
+  Logout: ログアウト
+  Sign up: ユーザー登録
+  Login: ログイン
 
   books:
     create:
