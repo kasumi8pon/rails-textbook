@@ -8,6 +8,8 @@ ja:
         memo: 覚書
         author: 著者
         picture: 画像
+      user:
+        avatar: プロフィール画像
     errors:
       messages:
         record_invalid: "バリデーションに失敗しました: %{errors}"
@@ -221,12 +223,27 @@ ja:
   Editing Book: 編集
   new: 登録
   back: 戻る
+
   Logged in as: ログイン中のユーザー
   Edit profile: ユーザー情報編集
   Logout: ログアウト
   Sign up: ユーザー登録
   Login: ログイン
   Sign in with Facebook: Facebookでログイン
+
+  Sign up: 新規ユーザー登録
+  Edit User: ユーザー情報編集
+  leave blank if you don't want to change it: パスワードを変更しない場合は空欄のままにしてください。
+  characters minimum: 文字以上
+  we need your current password to confirm your changes: パスワードを変更する場合にも現在のパスワードが必要です。
+  Update: 編集
+  Cancel my account: ユーザー削除
+  Unhappy?: 満足いただけませんでしたか。
+  Back: 戻る
+
+  Log in: ログイン
+  Sign in with Facebook: Facebookでログイン
+  Forgot your password?: パスワードを忘れた場合
 
   books:
     create:
