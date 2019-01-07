@@ -8,6 +8,8 @@ ja:
         memo: 覚書
         author: 著者
         picture: 画像
+      user:
+        avatar: プロフィール画像
     errors:
       messages:
         record_invalid: "バリデーションに失敗しました: %{errors}"
